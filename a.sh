@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo su
 apt update && apt -y install sudo gcc curl zip
 apt install gcc -y
 apt install nodejs -y
